@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from homework.module14.crud_functions import get_all_products, initiate_db, Products
 
 initiate_db()
-api = '7280212963:AAFNyiTmnSPXEbtJpDuPS8zG1jl_pgK2pu4'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
